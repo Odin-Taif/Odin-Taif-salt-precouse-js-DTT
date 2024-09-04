@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getAge } from "../src/getAge";
+import { getAge } from "./getAge";
 
 describe("getAge", () => {
   it("should return You do not exist! if the birthYear is less than 1900", () => {

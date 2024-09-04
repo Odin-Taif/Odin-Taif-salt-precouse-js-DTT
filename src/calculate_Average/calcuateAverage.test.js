@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { calculateAverage } from "../src/calculateAverage";
+import { calculateAverage } from "./calculateAverage";
 
 // calculate avarage of an array test
 describe("calculateAverage", () => {
